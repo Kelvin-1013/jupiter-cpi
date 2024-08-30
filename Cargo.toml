@@ -4,7 +4,7 @@ version = "6.0.0"
 edition = "2021"
 description = "Anchor CPI client for the Jupiter program."
 authors = ["Siong Ong <siong@raccoons.dev>"]
-repository = "https://github.com/jup-ag/jupiter-cpi"
+repository = "https://github.com/cosmic-lab-inc/jupiter-cpi"
 license = "Apache-2.0"
 keywords = ["solana", "anchor", "cpi", "jupiter"]
 
@@ -22,4 +22,4 @@ rand = "0.8.5"
 borsh = ">=0.9, <1.0.0"
 jupiter-amm-interface = { git = "https://github.com/cosmic-lab-inc/jupiter-amm-interface.git", branch = "main" }
 solana-program = "1.16"
-ahash = "=0.8.6"
+#ahash = "=0.8.6"
