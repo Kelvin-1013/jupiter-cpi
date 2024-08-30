@@ -16,17 +16,19 @@ no-log-ix-name = []
 cpi = ["no-entrypoint"]
 
 [dependencies]
-### 0.24.2 anchor
-#anchor-gen = { git = "https://github.com/cosmic-lab-inc/anchor-gen.git", branch = "main" }
-#anchor-lang = "0.29.0"
-#rand = "0.8.5"
-#borsh = "0.10.3"
-#jupiter-amm-interface = { git = "https://github.com/cosmic-lab-inc/jupiter-amm-interface.git", branch = "main" }
-#solana-program = "1.16"
+## 0.24.2 anchor
+anchor-gen = { git = "https://github.com/cosmic-lab-inc/anchor-gen.git", branch = "main" }
+anchor-lang = "0.29.0"
+rand = "0.8.5"
+borsh = "0.10.3"
+jupiter-amm-interface = { git = "https://github.com/cosmic-lab-inc/jupiter-amm-interface.git", branch = "main" }
+solana-program = "1.16"
 
 ## 1.18 Solana
-anchor-gen = { git = "https://github.com/jup-ag/anchor-gen.git", rev = "dae4c216b883ea089432ff5c00d100f4f662fd07" }
-anchor-lang = "^0.29.0"
-solana-program = "^1.18.15"
-jupiter-amm-interface = { git = "https://github.com/hft-team/jupiter-amm-interface.git" }
-rand = "0.8.5"
+#anchor-gen = { git = "https://github.com/jup-ag/anchor-gen.git", rev = "dae4c216b883ea089432ff5c00d100f4f662fd07" }
+#anchor-lang = "^0.29.0"
+#solana-program = "^1.18.15"
+#jupiter-amm-interface = { git = "https://github.com/hft-team/jupiter-amm-interface.git" }
+##jupiter-amm-interface = { git = "https://github.com/cosmic-lab-inc/jupiter-amm-interface.git", branch = "v1.18" }
+#rand = "0.8.5"
+#borsh = "0.10.3"
