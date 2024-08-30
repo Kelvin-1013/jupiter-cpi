@@ -1737,7 +1737,7 @@ dependencies = [
 [[package]]
 name = "jupiter-amm-interface"
 version = "0.3.3"
-source = "git+https://github.com/cosmic-lab-inc/jupiter-amm-interface.git?branch=main#60c29802b147f147134adacef72dee0801ed4de7"
+source = "git+https://github.com/cosmic-lab-inc/jupiter-amm-interface.git?branch=main#f1a327f5add91e79425b7df5a6fc465ddeafb8bb"
 dependencies = [
  "anyhow",
  "borsh 0.10.3",
