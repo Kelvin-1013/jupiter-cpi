@@ -16,7 +16,7 @@ no-log-ix-name = []
 cpi = ["no-entrypoint"]
 
 [dependencies]
-anchor-gen = { git = "https://github.com/cosmic-lab-inc/anchor-gen.git", branch = "main" }
+anchor-gen = { git = "https://github.com/cosmic-lab-inc/anchor-gen.git", branch = "v0.29.0" }
 anchor-lang = "0.29.0"
 rand = "0.8.5"
 borsh = ">=0.9, <1.0.0"
