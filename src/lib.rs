@@ -7,6 +7,7 @@ use rand::{
     seq::IteratorRandom,
 };
 use solana_program::pubkey;
+mod swap;
 
 // Now, we only support up to 8 authorities between [0, 1, 2, 3, 4, 5, 6, 7]. To create more authorities, we need to
 // add them in the monorepo. We can use from 0 up to 255 in order to prevent hot accounts.
@@ -57,7 +58,7 @@ pub fn find_jupiter_open_orders(market: &Pubkey, authority: &Pubkey) -> Pubkey {
 pub mod jupiter_override {
     use anchor_lang::InstructionData;
     use anchor_lang::{prelude::*, Discriminator};
-    use jupiter_amm_interface::Swap as InterfaceSwap;
+    use crate::swap::Swap as InterfaceSwap;
 
     #[derive(AnchorSerialize, Debug)]
     pub struct RoutePlanStep {

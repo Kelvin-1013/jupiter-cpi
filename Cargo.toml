@@ -16,10 +16,9 @@ no-log-ix-name = []
 cpi = ["no-entrypoint"]
 
 [dependencies]
-anchor-gen = { git = "https://github.com/cosmic-lab-inc/anchor-gen.git", branch = "v0.29.0" }
+anchor-gen = { git = "https://github.com/cosmic-lab-inc/anchor-gen.git", branch = "main" }
 anchor-lang = "0.29.0"
 rand = "0.8.5"
-borsh = ">=0.9, <1.0.0"
-jupiter-amm-interface = { git = "https://github.com/cosmic-lab-inc/jupiter-amm-interface.git", branch = "main" }
+borsh = "0.10.3"
 solana-program = "1.16"
 #ahash = "=0.8.6"
